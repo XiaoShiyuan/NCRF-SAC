@@ -1,0 +1,1 @@
+python3 main.py --mode train --dataset conll --elmo False --lambda_value 0.05 --min_step 28000 --max_step 35000

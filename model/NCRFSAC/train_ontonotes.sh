@@ -1,0 +1,1 @@
+python3 main.py --mode train --dataset ontonotes --elmo False --lambda_value 0.5 --min_step 30000 --max_step 35000
