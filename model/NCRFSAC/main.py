@@ -307,7 +307,7 @@ if __name__ == '__main__':
     # Estimator, train and evaluate
     train_inpf = functools.partial(input_fn, fwords('train'), ftags('train'),
                                    params, shuffle_and_repeat=True)
-    eval_inpf = functools.partial(input_fn, fwords('testb'), ftags('testb'))
+    eval_inpf = functools.partial(input_fn, fwords('testa'), ftags('testa'))
 
     if args.gpu_growth:
         session_config = tf.ConfigProto()

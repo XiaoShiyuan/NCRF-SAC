@@ -9,7 +9,7 @@ Notice that you need to apply for ontonotes 5.0 dataset. You could find preproce
 
 We recommend iobes tag scheme for conll2003 dataset and iob tag scheme for ontonotes.
 
-The best lambda for iobes tag scheme is 0.05 and 0.5 for iob tag scheme
+The best lambda for iobes tag scheme is 0.05 and 0.5 for iob tag scheme. Also you can try other lambdas for both tag schemes, they will achieve similar results.
 
 We think that iobes are suitable for datasets with fewer entity types, while iob is suitable for datasets with more entity types.
 
