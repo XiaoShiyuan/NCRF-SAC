@@ -24,3 +24,6 @@ Steps:
 5. Run predict_conll.sh or predict_ontonotes.sh
 6. Run "perl conlleval < results/score/testb.preds.txt"
 
+update 20201023:
+model.py: line 310: change testb to testa
+
